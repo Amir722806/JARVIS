@@ -50,7 +50,7 @@ def main_process():
                 webbrowser.open("https://www.youtube.com/watch?v=Mrv_YjesdFU&list=RDMrv_YjesdFU&start_radio=1")
             elif song == 3:
                 webbrowser.open("https://www.youtube.com/watch?v=CLzPhmhHsP8&list=RDCLzPhmhHsP8&start_radio=1")
-        elif "time" in request:
+        elif "now time" in request:
             now_time = datetime.datetime.now()
             speak("Current Time is "+ now_time)
 
